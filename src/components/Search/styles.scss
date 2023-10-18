@@ -1,0 +1,121 @@
+.Search {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Search-input {
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  &:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  }
+}
+
+.Search-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  button {
+    padding: 0.5rem 1rem;
+    border: 1px;
+    border-color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.65rem;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+  button.All {
+    background-color: #cacaca; 
+    color: black;
+  }
+  button.Normal {
+    background-color: #C6C6A7; 
+    color: white;
+  }
+  button.Fire {
+    background-color: #F08030; 
+    color: white;
+  }
+  button.Water {
+    background-color: #6890F0; 
+    color: white;
+  }
+  button.Grass {
+    background-color: #78C850; 
+    color: white;
+  }
+  button.Flying {
+    background-color: #A890F0;
+    color: white;
+  }
+  button.Fighting {
+    background-color: #C03028;
+    color: white;
+  }
+  button.Poison {
+    background-color: #A040A0; 
+    color: white;
+  }
+  button.Electric {
+    background-color: #F8D030; 
+    color: white;
+  }
+  button.Ground {
+    background-color: #E0C068;
+    color: white;
+  }
+  button.Rock {
+    background-color: #B8A038; 
+    color: white;
+  }
+  button.Psychic {
+    background-color: #F85888;
+    color: white;
+  }
+  button.Ice {
+    background-color: #98D8D8; 
+    color: white;
+  }
+  button.Bug {
+    background-color: #A8B820; 
+    color: white;
+  }
+  button.Ghost {
+    background-color: #705898;
+    color: white;
+  }
+  button.Steel {
+    background-color: #B8B8D0;
+    color: white;
+  }
+  button.Dragon {
+    background-color: #7038F8; 
+    color: white;
+  }
+  button.Dark {
+    background-color: #6c757d; 
+    color: white;
+  }
+  button.Fairy {
+    background-color: #EE99AC; 
+    color: white;
+  }
+  /* Add more styling for other Pokemon types as needed */
+}

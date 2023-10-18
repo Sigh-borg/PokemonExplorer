@@ -1,0 +1,71 @@
+.pokemon-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px; /* Reduced padding */
+  background-color: #f2f2f2;
+  
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px; /* Reduced margin */
+
+    .button {
+      padding: 10px 20px; /* Smaller button padding */
+      font-size: 14px; /* Smaller font size for buttons */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &.button-prev {
+        background-color: #f39c12; /* Orange */
+        &:hover {
+          background-color: #d35400; /* Darker Orange */
+        }
+      }
+
+      &.button-next {
+        background-color: #9b59b6; /* Purple */
+        &:hover {
+          background-color: #8e44ad; /* Darker Purple */
+        }
+      }
+
+      &.button-exit {
+        background-color: #e74c3c; /* Red */
+        &:hover {
+          background-color: #c0392b; /* Darker Red */
+        }
+      }
+    }
+  }
+
+  .sprite-container {
+    margin-bottom: 20px; /* Reduced margin */
+  }
+
+  .sprite {
+    width: 180px; /* Slightly smaller sprite size */
+    height: 180px; /* Slightly smaller sprite size */
+  }
+
+  .details-container {
+    h2 {
+      font-size: 36px; /* Smaller font size for heading */
+      margin-bottom: 10px; /* Reduced margin */
+      text-transform: capitalize;
+      color: #e74c3c; /* Red */
+    }
+
+    p {
+      font-size: 18px; /* Smaller font size for paragraphs */
+      margin: 5px 0; /* Reduced margin */
+      color: #3498db; /* Blue */
+      text-transform: capitalize;
+    }
+  }
+}

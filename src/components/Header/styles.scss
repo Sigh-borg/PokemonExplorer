@@ -1,0 +1,40 @@
+.Header {
+  background-color: #ef5350; /* Red background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  nav {
+    button {
+      background-color: #ffa726; /* Orange button color */
+      border: none;
+      color: #fff; /* White button text color */
+      padding: 10px 20px;
+      margin-left: 10px;
+      cursor: pointer;
+      font-family: 'Arial', sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      text-decoration: none; /* Remove default underline style */
+      color: inherit; /* Use the parent element's color for the link text */
+      outline: none; /* Remove focus outline for accessibility */
+      letter-spacing: 1px;
+      text-decoration: none;
+      outline: none;
+
+      &:hover {
+        background-color: #ff7043; /* Darker orange color on hover */
+      }
+    }
+  }
+}
+

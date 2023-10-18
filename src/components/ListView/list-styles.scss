@@ -1,0 +1,111 @@
+/* styles.scss */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #e44d26; /* Pokémon Red color for the font */
+    margin: 0;
+    text-transform: capitalize;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #333;
+  }
+}
+
+.list-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  max-width: 20000px;
+  
+}
+
+.list-item {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .list-item-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .list-item-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .list-item-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      font-size: 18px;
+      color: #e44d26; /* Pokémon Red color for the font */
+      margin-right: 30px;
+      text-transform: capitalize;
+    }
+
+    p {
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: right;
+      font-size: 14px;
+      color: #333;
+      text-transform: capitalize;
+    }
+  }
+}
