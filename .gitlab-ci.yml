@@ -1,7 +1,7 @@
 image: node:latest
 
 variables:
-  PUBLIC_URL: /Mp2
+  PUBLIC_URL: /mp2
 
 cache:
   paths:
@@ -24,4 +24,4 @@ pages:
     - public
 
   only:
-    - master
+    - main
