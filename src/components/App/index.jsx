@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 
 import axios from 'axios';
 import Header from '../Header';
@@ -22,7 +22,6 @@ function App(props) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('');
   const [typeFilter, setTypeFilter] = useState('');
-  const navigate = useNavigate();
 
   useEffect(() => {
     const FetchPokemonData = async () => {
