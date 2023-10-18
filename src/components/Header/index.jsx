@@ -1,5 +1,3 @@
-
-import { Component } from 'react';
 import './styles.scss';
 
 import { Link } from 'react-router-dom';
